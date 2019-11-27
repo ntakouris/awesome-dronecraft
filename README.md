@@ -15,6 +15,8 @@ Contributions are welcome, so please open a PR if you can improve this list or s
 
 This is my big study plan for going from simple programmer dude to software engineer who can understand how autonomous drones work.
 
+There are references and video of various popular open source flight controller firmware and guidance projects in order to give the reader a sense of realism and real-sense and real-world value of operations, as well as act as get-to-know-the-market info.
+
 ![Skydio's SLAM](https://pbs.twimg.com/ext_tw_video_thumb/976148551779500032/pu/img/erxg20ZxAfOoDBKb.jpg)
 
 This is meant for **software engineers** or people who already know how to code and also got basic knowledge of computer science topics including math __(probablility, calculus, linear algebra)__. If you have many years of experience this can be easier to read through, but this is not guaranteed.
@@ -34,7 +36,6 @@ Disclaimer: I am not employed nor have I got any work experience on commerial or
 - [Before you Get Started](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
 - WIP
 
 ## Why use it?
@@ -122,8 +123,7 @@ There are a lot of distractions that can take up valuable time. Focus and concen
 
 ## What you won't see covered
 
-- A lot of electorlogical stuff
-- WIP
+- Don't know yet
 
 ## Prerequisite Knowledge
 
@@ -136,7 +136,7 @@ Learn to code. This is only required for you to understand how the different alg
     - Information available on the internet is widely available and you can find lot's of stuff by googling.
     - I could recommend to start with Python and work your way down to C and C++.
     - You can learn to code in parallel with this study plan, but things will be a lot harder and will take more time.
-    - [] [A complete computer science study plan to become a software engineer](https://github.com/jwasham/coding-interview-university)
+    - [ ] [A complete computer science study plan to become a software engineer](https://github.com/jwasham/coding-interview-university)
 
 The next part is needed to be able to understand the math behind the stuff we are going to use. It's not at all harder compared to other fields of study. Hang on and in the end, you'll be surprised by how easy it is to understand everything. This is not the only path to learn these, it's just what I would take. (Yes, I like university lectures and whitepapers.)
 
@@ -162,6 +162,8 @@ The next part is needed to be able to understand the math behind the stuff we ar
 - [ ] [Introduction to 6-DOF Simulation of Air Vehicles (pdf)](http://avionics.nau.edu.ua/files/doc/VisSim.doc/6dof.pdf)
 - [ ] [Quadcopter Dynamics, Simulation and Control (paper)](http://andrew.gibiansky.com/downloads/pdf/Quadcopter%20Dynamics,%20Simulation,%20and%20Control.pdf)
 - [ ] [PID, LQR and LQR-PID on a quadcopter platform (paper)](https://www.researchgate.net/publication/261212676_PID_LQR_and_LQR-PID_on_a_quadcopter_platform)
+- [ ] [Betaflight: PID Tuning Guide](https://www.youtube.com/watch?v=27lMKi2inpk)
+- [ ] [Pixhawk: PID Auto Tune](https://www.youtube.com/watch?v=DbcZCql1UlE)
 
 __At this point, you might wonder: This is only for four rotors. Don't worry, the extra ones are only used to have resilience. In the future this is going to be populated with more types of rotorcraft like submarines, VTOL drones and wings.__
 
@@ -194,7 +196,7 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 - [ ] [(optional) Michel van Biezen - How GPS works](https://www.youtube.com/watch?v=16xHIBmul_o&list=PLX2gX-ftPVXXGdn_8m2HCIJS7CfKMCwol)
 - [ ] [Map Projections]
     - [ ] [Map Projections Explained](https://www.youtube.com/watch?v=wlfLW1j05Dg)
-    - [ ] [Equirectangular Projection](https://en.wikipedia.org/wiki/Equirectangular_projection)
+    - [ ] [Equirectangular Projection (site)](https://en.wikipedia.org/wiki/Equirectangular_projection)
 - [ ] [Inertia Measurement Units]
     - [ ] [How IMUs Work](https://www.youtube.com/watch?v=eqZgxR6eRjo)
     - [ ] [How to implement an IMU](https://www.youtube.com/watch?v=T9jXoG0QYIA)
@@ -210,15 +212,24 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
         - [Stereoscopic 3D basics](https://www.youtube.com/watch?v=1MXNRrHLuWk)
         - [How does a LiDAR work](https://www.youtube.com/watch?v=EYbhNSUnIdU)
         - [The correspondence problem](https://www.youtube.com/watch?v=VZNN1OGoqr8)]
-- [ ] [Bias Correction and Calibration]
-    - [ ] [WIP](https://example.com)
-- [ ] [Sampling Techniques]
-    - [ ] [WIP](https://example.com)
-- [ ] [Communication]
-    - [ ] [MCU]
-        - [ ] [WIP](https://example.com)
-    - [ ] [Remote]
-        - [ ] [WIP](https://example.com)
+    - [ ] [PX4: Gimbal Control (site)](https://dev.px4.io/v1.9.0/en/advanced/gimbal_control.html)
+    - [ ] [MAVLink: Gimbal Protocol (site)](https://mavlink.io/en/services/gimbal.html)
+- [ ] [Corrections and Calibration]
+    - [ ] [What is Sensor Calibration and Why is it Important?](https://www.youtube.com/watch?v=n_lZCIA25aI)
+    - [ ] [Low Pass Filter (site)](https://www.dsprelated.com/freebooks/filters/Simplest_Lowpass_Filter_I.html)
+    - [ ] [Sampling Rates for Analog Sensors (site)](https://www.embedded.com/sampling-rates-for-analog-sensors/)
+    - [ ] [Signal Reconstruction](https://www.youtube.com/watch?v=rmDg3eVWT8E)
+- [ ] [Communication Protocols]
+    - [ ] [Understanding the I2C Bus (pdf)](https://www.ti.com/lit/an/slva704/slva704.pdf)
+    - [ ] [How I2C Works](https://www.youtube.com/watch?v=6IAkYpmA1DQ)
+    - [ ] [UART (pdf)](https://www.ti.com/lit/ug/sprugp1/sprugp1.pdf)
+    - [ ] [How UART Works](https://www.youtube.com/watch?v=V6m2skVlsQI)
+    - [ ] [SPI for Beginners](https://www.youtube.com/watch?v=ba0SQwjTQfw)
+    - [ ] [Analog to Digital Converters](https://www.youtube.com/watch?v=EnfjYwe2A0w)
+    - [ ] [SBUS and IBUS](https://www.youtube.com/watch?v=N2nnI72bmj4)
+    - [ ] [Understanding Pulse Width Modulation](https://www.youtube.com/watch?v=YfV-vYT3yfQ)
+    - [ ] [BLHeli](https://github.com/bitdump/BLHeli)
+    - [ ] [MAVLink](https://mavlink.io/)
 
 </details>
 
@@ -227,12 +238,28 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 <details>
 <summary>Simultaneous Localization and Mapping (henceforth: SLAM)</summary>
 
+- The sensor subsystem is complete. We can now procceed to construct a map of the environment as well as figure out where our UAV is located in the world.
+
+- [ ] [Quadtrees and Octrees (site)](https://www.i-programmer.info/programming/theory/1679-quadtrees-and-octrees.html)
+- [ ] [Octomap: An Efficient Probabilistic 3D Mapping Framework Based on Octrees (site)](https://octomap.github.io/)
+- [ ] [EKF SLAM - Cyrill Stachniss](https://www.youtube.com/watch?v=XeWG5D71gC0)
+- [ ] [LiDAR Data Visualisation](https://www.youtube.com/watch?v=nXlqv_k4P8Q)
+- [ ] [Autonomous Driving: Localization and Deep Learning Powered Mapping](https://www.youtube.com/watch?v=xgI3vgnHQ9U)
+
 </details>
 
 ## Path Planning
 
 <details>
-<summary></summary>
+<summary>Path Planning</summary>
+
+- After proper localization, we are ready to path or mission plan, to make the UAV complete a predefined course of trajectory along with actions
+
+- [ ] [Robotic Path Planning: RTT, RTT* (article)](https://medium.com/@theclassytim/robotic-path-planning-rrt-and-rrt-212319121378)
+- [ ] [3DVFH+: Real-Time Three-Dimensional Obstacle Avoidance Using an Octomap (paper)](https://www.researchgate.net/publication/269872013_3DVFH_Real-Time_Three-Dimensional_Obstacle_Avoidance_Using_an_Octomap)
+- [ ] [QGroundControl: Mission Planning (site)](https://docs.qgroundcontrol.com/en/PlanView/PlanView.html)
+- [ ] [ArduPilot: ZigZag Mode (site)](http://ardupilot.org/copter/docs/zigzag-mode.html)
+- [ ] [ArduPilot: Automatic Launch (site)](http://ardupilot.org/plane/docs/automatic-takeoff.html)
 
 </details>
 
@@ -243,18 +270,28 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 
 </details>
 
-
-## The Flight Controller
-
-<details>
-<summary></summary>
-
-</details>
-
 ## Existing Drone Software
 
 <details>
-<summary></summary>
+<summary>Existing Drone Software</summary>
+
+- For your own interest. Take a look into the source and issue tracker, maybe join the weekly dev calls.
+
+- [ ] [Dronecode](https://www.dronecode.org/)
+    - [ ] [UAVCAN](https://uavcan.org/)
+    - [ ] [Pixhawk Firmware](https://github.com/PX4/Firmware)
+    - [ ] [MAVLink](https://mavlink.io/)
+    - [ ] [QGroundControl](http://qgroundcontrol.com/)
+- [ ] [INAV](https://github.com/inavFlight/inav/wiki)
+- [ ] [BetaFlight](https://betaflight.com/)
+- [ ] [Cleanflight](http://cleanflight.com/)
+- [ ] [Simulator: Gazebo](http://gazebosim.org/)
+- [ ] [Simulator: Airsim](https://microsoft.github.io/AirSim/)
+- [ ] [Skydio Skills](https://github.com/Skydio/skydio-skills)
+- [ ] [Robot Operating System](https://www.ros.org/)
+- [ ] [DJI SDKs](https://developer.dji.com/)
+- [ ] [Parrot SDKs](https://developer.parrot.com/)
+- [ ] [Dronekit Dev Tools](https://dronekit.io/)
 
 </details>
 
