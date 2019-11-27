@@ -36,7 +36,21 @@ Disclaimer: I am not employed nor have I got any work experience on commerial or
 - [Before you Get Started](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
-- WIP
+
+
+- [Simulation and Control](#simulation-and-control)
+- [Control Theory](#control-theory)
+- [Sensors and State Estimation](#sensors-and-state-estimation)
+- [Simultaneous Localization and Mapping](#slam)
+- [Path Planning](#path-planning)
+- [Mechanical Parts](#mechanical-parts)
+- [Existing Drone Software](#existing-drone-software)
+- [Existing Drone Hardware](#existing-drone-hardware)
+- [The Flight Controller](#the-flight-controller)
+- [Building a Racing FPV Quadcopter](#building-a-racing-fpv-quadcopter)
+- [Building Fully Autonomous Rotorcraft](#building-fully-autonomous-rotorcraft)
+
+- [Once You've Finished](#once-youve-finished)
 
 ## Why use it?
 
