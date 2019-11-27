@@ -214,6 +214,7 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
         - [The correspondence problem](https://www.youtube.com/watch?v=VZNN1OGoqr8)]
     - [ ] [PX4: Gimbal Control (site)](https://dev.px4.io/v1.9.0/en/advanced/gimbal_control.html)
     - [ ] [MAVLink: Gimbal Protocol (site)](https://mavlink.io/en/services/gimbal.html)
+- [ ] [Ultrasonic Distance Sensor](https://www.youtube.com/watch?v=6F1B_N6LuKw)
 - [ ] [Corrections and Calibration]
     - [ ] [What is Sensor Calibration and Why is it Important?](https://www.youtube.com/watch?v=n_lZCIA25aI)
     - [ ] [Low Pass Filter (site)](https://www.dsprelated.com/freebooks/filters/Simplest_Lowpass_Filter_I.html)
@@ -298,7 +299,27 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 ## Existing Drone Hardware
 
 <details>
-<summary></summary>
+<summary>Existing Drone Hardware</summary>
+
+- For your own interest as well.
+
+- [ ] [Pixhawk Controllers](https://pixhawk.org/#autopilots)
+- [ ] [Betaflight F4](https://www.getfpv.com/betaflight-f4-flight-controller.html)
+- [ ] [Kakute F7](http://www.holybro.com/product/kakute-f7/)
+- [ ] [Kiss FC](https://www.flyduino.net/en_US/shop/product/pr1872-kiss-fc-32bit-flight-controller-v1-03-2686)
+- [ ] [Zubax UAVCAN Propulsion Kit](https://shop.zubax.com/products/uav-propulsion-kit)
+- [ ] [NEO-M8N GPS](https://www.getfpv.com/pixhawk-4-autopilot-and-neo-m8n-gps-pm07-combo.html)
+- [ ] [Skydio](https://www.skydio.com/)
+- [ ] [Intel Aero RTF](https://click.intel.com/intel-aero-ready-to-fly-drone-2812.html)
+- [ ] [QAV 250 RTF](https://www.getfpv.com/qav250-mini-fpv-quadcopter-rtf-carbon-fiber-edition.html)
+- [ ] [Intel Realsense](https://www.intel.com/content/www/us/en/architecture-and-technology/realsense-overview.html)
+
+</details>
+
+## The Flight Controller
+
+<details>
+<summary>Flight Controller Concepts and General Architecture</summary>
 
 </details>
 
