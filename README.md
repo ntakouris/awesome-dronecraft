@@ -357,4 +357,10 @@ Congratulations!
 
 Keep learning.
 
-You're never really done.
+You're never really done. But still, good job :).
+
+## Other Resources
+
+## Other Kinds of Vehicles
+
+## More Advanced Topics
