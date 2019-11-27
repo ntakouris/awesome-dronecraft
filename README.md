@@ -292,21 +292,33 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 
 - For your own interest. Take a look into the source and issue tracker, maybe join the weekly dev calls.
 
-- [ ] [Dronecode](https://www.dronecode.org/)
-    - [ ] [UAVCAN](https://uavcan.org/)
-    - [ ] [Pixhawk Firmware](https://github.com/PX4/Firmware)
-    - [ ] [MAVLink](https://mavlink.io/)
-    - [ ] [QGroundControl](http://qgroundcontrol.com/)
-- [ ] [INAV](https://github.com/inavFlight/inav/wiki)
+- Autopilots:
+- [ ] [PX4](https://github.com/PX4/Firmware)
+- [ ] [Ardupilot](http://ardupilot.org/)
 - [ ] [BetaFlight](https://betaflight.com/)
 - [ ] [Cleanflight](http://cleanflight.com/)
-- [ ] [Simulator: Gazebo](http://gazebosim.org/)
-- [ ] [Simulator: Airsim](https://microsoft.github.io/AirSim/)
-- [ ] [Skydio Skills](https://github.com/Skydio/skydio-skills)
-- [ ] [Robot Operating System](https://www.ros.org/)
-- [ ] [DJI SDKs](https://developer.dji.com/)
-- [ ] [Parrot SDKs](https://developer.parrot.com/)
+- [ ] [INAV](https://github.com/inavFlight/inav/wiki)
+
+- SDKs:
+- [ ] [MAVSDK](http://mavsdk.io/)
 - [ ] [Dronekit Dev Tools](https://dronekit.io/)
+- [ ] [Parrot SDKs](https://developer.parrot.com/)
+- [ ] [DJI SDKs](https://developer.dji.com/)
+- [ ] [Skydio Skills](https://github.com/Skydio/skydio-skills)
+
+- Ground Control Stations:
+- [ ] [QGroundControl](http://qgroundcontrol.com/)
+
+- Simulators:
+- [ ] [Gazebo](http://gazebosim.org/)
+- [ ] [Airsim](https://microsoft.github.io/AirSim/)
+
+- Middleware:
+- [ ] [Robot Operating System](https://www.ros.org/)
+
+- Protocols:
+- [ ] [UAVCAN](https://uavcan.org/)
+- [ ] [MAVLink](https://mavlink.io/)
 
 </details>
 
