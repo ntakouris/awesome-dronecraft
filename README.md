@@ -22,7 +22,6 @@ There are references and video of various popular open source flight controller 
 This is meant for **software engineers** or people who already know how to code and also got basic knowledge of computer science topics including math __(probablility, calculus, linear algebra)__. If you have many years of experience this can be easier to read through, but this is not guaranteed.
 
 Disclaimer: I am not employed nor have I got any work experience on commerial or research rotorcraft.
-
 ---
 
 ## Table of Contents
@@ -71,7 +70,6 @@ Everything below is an outline, and you should tackle the items in order from to
 I'm using Github's special markdown flavor, including tasks lists to check progress.
 
 **Create a new branch so you can check items like this, just put an x in the brackets: [x]**
-
 
     Fork a branch and follow the commands below
 
