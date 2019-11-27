@@ -335,19 +335,34 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 <details>
 <summary>Flight Controller Concepts and General Architecture</summary>
 
+- [ ] [Betaflight: Software Architecture Diagrams](https://github.com/betaflight/betaflight/issues/7112)
+- [ ] [Betaflight: Unified Board Targets](https://github.com/betaflight/betaflight/wiki/Unified-Targets)
+- [ ] [Pixhawk: Architectural Overview](https://dev.px4.io/v1.9.0/en/concept/architecture.html)
+- [ ] [ArduPilot: Flight Modes](http://ardupilot.org/copter/docs/flight-modes.html)
+
 </details>
 
 ## Building a Racing FPV Quadcopter
 
 <details>
-<summary></summary>
+<summary>Building a Racing FPV Quadcopter</summary>
+
+- In order to do that, you have to find a set of required hardware that is compatible, burn and configure your desired flight controller firmware.
+
+- [ ] [WIP]()
 
 </details>
 
 ## Building Fully Autonomous Rotorcraft
 
+
 <details>
-<summary></summary>
+<summary>Building Fully Autonomous Rotorcraft</summary>
+
+- Building Fully Autonomous Rotorcraft is much harder and more resource intensive than building a computer-aided one. You need to do better calibration because there is no pilot directly flying it-only supervising it.
+
+- [ ] [WIP]()
+
 
 </details>
 
@@ -360,6 +375,8 @@ Keep learning.
 You're never really done. But still, good job :).
 
 ## Other Resources
+
+## Drone Usage in Industry
 
 ## Other Kinds of Vehicles
 
