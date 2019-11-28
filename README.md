@@ -66,9 +66,6 @@ It's a long plan. It may take you months. If you are familiar with a lot of this
 
 ## How to use it
 
-<details>
-<summary>How to use it</summary>
-
 Everything below is an outline, and you should tackle the items in order from top to bottom.
 
 I'm using Github's special markdown flavor, including tasks lists to check progress.
@@ -95,7 +92,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 [More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-</details>
+
 
 ## Don't feel you aren't smart enough
 
@@ -143,9 +140,6 @@ There are a lot of distractions that can take up valuable time. Focus and concen
 
 ## Prerequisite Knowledge
 
-<details>
-<summary>Prerequisite Knowledge</summary>
-
 Learn to code. This is only required for you to understand how the different algorithms and techniques that will be presented are actually implemented. You need this knowledge to be able to understand the source code of the popular data structure implementations, open source flight controllers and more. Basic data structure and algorithmic complexity should be included.
 
 - [ ] **C, C++, Python, Anything**
@@ -163,7 +157,7 @@ The next part is needed to be able to understand the math behind the stuff we ar
     - [ ] [Introduction to Probability and Statistics-  MIT OCW](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/)
     - [ ] [Digital Signal Proccessing - Rensselaer Polytechnic Institute](https://www.youtube.com/playlist?list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et)
 
-</details>
+
 
 ## Courses
 
@@ -186,9 +180,6 @@ __Optional__
 
 ## Simulation and Control
 
-<details>
-<summary>Simulation and Control</summary>
-
 - This is the basis of rotorcraft that is going to get covered first. These few resources will make you understand what a drone needs to fly bad, good, with the help of extra autonomy engines or with the help of a pilot.
 - After this part, the corks and screws of each subsystem is going to be investigated thouroughly.
 
@@ -202,12 +193,9 @@ __Optional__
 
 __At this point, you might wonder: This is only for four rotors. Don't worry, the extra ones are only used to have resilience. In the future this is going to be populated with more types of rotorcraft like submarines, VTOL drones and wings.__
 
-</details>
+
 
 ## Control Theory
-
-<details>
-<summary>Control Theory</summary>
 
 - Now that you have got a rough understanding of how you are going to make things fly, it's time to take a better look into the mathematical concepts behind the control of systems.
 
@@ -215,12 +203,9 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 - [ ] [Matlab Tech Talks - Control Systems in practise](https://www.mathworks.com/videos/series/control-systems-in-practice.html)
 - [ ] [Matlab Tech Talks - Understanding PID control](https://www.mathworks.com/videos/series/understanding-pid-control.html)
 
-</details>
+
 
 ## Sensors and State Estimation
-
-<details>
-<summary>Sensors and State Estimation</summary>
 
 - In order to get the control theory to work, we have to obtain a best-effort state estimate by observing our rotorcraft system.
 
@@ -266,12 +251,9 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
     - [ ] [Understanding Pulse Width Modulation](https://www.youtube.com/watch?v=YfV-vYT3yfQ)
     - [ ] [MAVLink](https://mavlink.io/)
 
-</details>
+
 
 ## SLAM
-
-<details>
-<summary>Simultaneous Localization and Mapping (henceforth: SLAM)</summary>
 
 - The sensor subsystem is complete. We can now procceed to construct a map of the environment as well as figure out where our UAV is located in the world.
 
@@ -281,12 +263,9 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 - [ ] [LiDAR Data Visualisation](https://www.youtube.com/watch?v=nXlqv_k4P8Q)
 - [ ] [Autonomous Driving: Localization and Deep Learning Powered Mapping](https://www.youtube.com/watch?v=xgI3vgnHQ9U)
 
-</details>
+
 
 ## Path Planning
-
-<details>
-<summary>Path Planning</summary>
 
 - After proper localization, we are ready to path or mission plan, to make the UAV complete a predefined course of trajectory along with actions
 
@@ -296,19 +275,9 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 - [ ] [ArduPilot: ZigZag Mode (site)](http://ardupilot.org/copter/docs/zigzag-mode.html)
 - [ ] [ArduPilot: Automatic Launch (site)](http://ardupilot.org/plane/docs/automatic-takeoff.html)
 
-</details>
-
 ## Mechanical Parts
 
-<details>
-<summary>Motors, Propellers and other mechanical concepts</summary>
-
-</details>
-
 ## Existing Drone Software
-
-<details>
-<summary>Existing Drone Software</summary>
 
 - For your own interest. Take a look into the source and issue tracker, maybe join the weekly dev calls.
 
@@ -342,13 +311,7 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 - [ ] [Betaflight:Open ESC Firmware](https://github.com/betaflight/betaflight-esc)
 - [ ] [BLHeli](https://github.com/bitdump/BLHeli)
 
-
-</details>
-
 ## Existing Drone Hardware
-
-<details>
-<summary>Existing Drone Hardware</summary>
 
 - For your own interest as well.
 
@@ -363,12 +326,7 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 - [ ] [QAV 250 RTF](https://www.getfpv.com/qav250-mini-fpv-quadcopter-rtf-carbon-fiber-edition.html)
 - [ ] [Intel Realsense](https://www.intel.com/content/www/us/en/architecture-and-technology/realsense-overview.html)
 
-</details>
-
 ## The Flight Controller
-
-<details>
-<summary>Flight Controller Concepts and General Architecture</summary>
 
 - [ ] [Betaflight: Software Architecture Diagrams](https://github.com/betaflight/betaflight/issues/7112)
 - [ ] [Betaflight: Unified Board Targets](https://github.com/betaflight/betaflight/wiki/Unified-Targets)
@@ -376,12 +334,7 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 - [ ] [ArduPilot: Flight Modes](http://ardupilot.org/copter/docs/flight-modes.html)
 - [ ] [Pixhawk: Flight Review](https://docs.px4.io/v1.9.0/en/log/flight_review.html)
 
-</details>
-
 ## Building a Racing FPV Quadcopter
-
-<details>
-<summary>Building a Racing FPV Quadcopter</summary>
 
 - In order to do that, you have to find a set of required hardware that is compatible, burn and configure your desired flight controller firmware.
 
@@ -420,19 +373,11 @@ __Experienced racing pilots recommend that you stard by flying 'acro'/'freestyle
 
 __Flying 'angle'/'aided' mode is much easier and the same to flying your typical DJI/Parrot/etc drone around. You can fly this 'line of sight' even if you dont have goggles.__
 
-</details>
-
 ## Building Fully Autonomous Rotorcraft
-
-
-<details>
-<summary>Building Fully Autonomous Rotorcraft</summary>
 
 - Building Fully Autonomous Rotorcraft is much harder and more resource intensive than building a computer-aided one. You need to do better calibration because there is no pilot directly flying it-only supervising it.
 
 - [ ] [WIP]()
-
-</details>
 
 ## Once You've Finished
 
