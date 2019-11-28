@@ -201,25 +201,25 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 
 - In order to get the control theory to work, we have to obtain a best-effort state estimate by observing our rotorcraft system.
 
-- [ ] [Kalman Filters]
+- [ ] Kalman Filters
     - [ ] [Matlab Tech Talks - Understanding Kalman Filters](https://www.mathworks.com/videos/series/understanding-kalman-filters.html)
     - [ ] [(or) Michel van Biezen - Kalman Filters](https://www.youtube.com/watch?v=CaCcOwJPytQ)
 - [ ] [Particle Filters](https://www.youtube.com/watch?v=lzN18y_z6HQ)
 - [ ] [(optional) Michel van Biezen - How GPS works](https://www.youtube.com/watch?v=16xHIBmul_o&list=PLX2gX-ftPVXXGdn_8m2HCIJS7CfKMCwol)
-- [ ] [Map Projections]
+- [ ] Map Projections
     - [ ] [Map Projections Explained](https://www.youtube.com/watch?v=wlfLW1j05Dg)
     - [ ] [Equirectangular Projection (site)](https://en.wikipedia.org/wiki/Equirectangular_projection)
-- [ ] [Inertia Measurement Units]
+- [ ] Inertia Measurement Units
     - [ ] [How IMUs Work](https://www.youtube.com/watch?v=eqZgxR6eRjo)
     - [ ] [How to implement an IMU](https://www.youtube.com/watch?v=T9jXoG0QYIA)
     - [ ] [Soft mounting and vibrations](https://www.youtube.com/watch?v=zdE1BidMwNU)
-- [ ] [Cameras and Optical Sensors]
+- [ ] Cameras and Optical Sensors
     - [ ] [How does a camera work](https://www.youtube.com/watch?v=qS1FmgPVLqw)
     - [ ] [Rolling and Global Shutter](https://www.youtube.com/watch?v=DG4OjpD3Zow)
-    - [ ] [Optical Flow]
+    - [ ] Optical Flow
         - [ ] [Computerphile - Optical Flow](https://www.youtube.com/watch?v=5AUypv5BNbI)
         - [ ] [Computerphile - Optical Flow Solutions](https://www.youtube.com/watch?v=4v_keMNROv4)
-    - [ ] [Depth Perception]
+    - [ ] Depth Perception
         - [How Kinect works in 2 minutes](https://www.youtube.com/watch?v=uq9SEJxZiUg)
         - [Stereoscopic 3D basics](https://www.youtube.com/watch?v=1MXNRrHLuWk)
         - [How does a LiDAR work](https://www.youtube.com/watch?v=EYbhNSUnIdU)
@@ -227,12 +227,12 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
     - [ ] [PX4: Gimbal Control (site)](https://dev.px4.io/v1.9.0/en/advanced/gimbal_control.html)
     - [ ] [MAVLink: Gimbal Protocol (site)](https://mavlink.io/en/services/gimbal.html)
 - [ ] [Ultrasonic Distance Sensor](https://www.youtube.com/watch?v=6F1B_N6LuKw)
-- [ ] [Corrections and Calibration]
+- [ ] Corrections and Calibration
     - [ ] [What is Sensor Calibration and Why is it Important?](https://www.youtube.com/watch?v=n_lZCIA25aI)
     - [ ] [Low Pass Filter (site)](https://www.dsprelated.com/freebooks/filters/Simplest_Lowpass_Filter_I.html)
     - [ ] [Sampling Rates for Analog Sensors (site)](https://www.embedded.com/sampling-rates-for-analog-sensors/)
     - [ ] [Signal Reconstruction](https://www.youtube.com/watch?v=rmDg3eVWT8E)
-- [ ] [Communication Protocols]
+- [ ] Communication Protocols
     - [ ] [Understanding the I2C Bus (pdf)](https://www.ti.com/lit/an/slva704/slva704.pdf)
     - [ ] [How I2C Works](https://www.youtube.com/watch?v=6IAkYpmA1DQ)
     - [ ] [UART (pdf)](https://www.ti.com/lit/ug/sprugp1/sprugp1.pdf)
@@ -349,6 +349,7 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 - [ ] [Betaflight: Unified Board Targets](https://github.com/betaflight/betaflight/wiki/Unified-Targets)
 - [ ] [Pixhawk: Architectural Overview](https://dev.px4.io/v1.9.0/en/concept/architecture.html)
 - [ ] [ArduPilot: Flight Modes](http://ardupilot.org/copter/docs/flight-modes.html)
+- [ ] [Pixhawk: Flight Review](https://docs.px4.io/v1.9.0/en/log/flight_review.html)
 
 </details>
 
@@ -359,7 +360,40 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 
 - In order to do that, you have to find a set of required hardware that is compatible, burn and configure your desired flight controller firmware.
 
-- [ ] [WIP]()
+- [ ] **Minimum Hardware**
+    - [ ] Frame. For racing/fully manual control, typically carbon fiber, but you can even 3d print one or carve one out of wood. Take 2 dimensions in mind: flight controller stack size and propeller size. Most common propellers would be about 5".
+    - [ ] Flight Controller. You know enough to choose one. I'd use betaflight.
+    - [ ] ESCs. You can go with a 4 x 1 ESC or All in one board combo. Each has got advantages and disadvantages, search about it. But first, check your battery. It should be able to handle the burst current.
+    - [ ] PDB. You need a power distribution board. These are relatively small and uncomplicated. You can find __PDB+ESC+FC__ all in one combos that include battery step down and all that. But first, check your battery.
+    - [ ] Battery. LiPo. At the time of this writing you can go from 4s to 6s. Price depends on capacity, discharge rating and cell count.
+    - [ ] RC Transceiver. Should be compatible with your RC Controller and it's protocol should be compatible with your FC board. Typically 2.4GHz.
+    - [ ] RC Controller. Flysky, Taranis, there are too many to list.
+    - After configuring frameware you should be able to fly this, but there are several stuff missing.
+- [ ] **Optional Hardware**
+    - [ ] Camera. Not the kind you are used to. This one sends out (analog) PAL/VTSC video and should support [OSD](https://oscarliang.com/betaflight-osd/)
+    - [ ] VTX. Stands for video transmitter. This is used to broadcast the video to typically 5.8GHz. Research how much mW you need.
+    - [ ] FPV Goggles. To view the video. Should bear compatible antenna with the VTX. Diversity modules which dynamically choose the best signal source from an omnidirectional and a directional antenna are better.
+    - [ ] Aftermarket Antennas. For beter reception.
+    - [ ] Beeper. Beeps if you lose it.
+    - [ ] Battery Balance Charger. You can't use discharged batteries.
+    - [ ] Battery Balance Charger Power Supply. If your charger does not come with one. (Most IMAX B6s do not, for example)
+    - [ ] 3D Printed GoPro Session Case
+    - [ ] Insulation Tape
+    - [ ] Zipties
+    - [ ] LEDs for the bottom of the craft
+    - [ ] Velcro Battery Straps
+
+- [ ] **Software and Further Configuration**
+    - [ ] Blackbox Logging. Important information regarding your flight. Can help you out for post-flight analysis.
+    - [ ] RC Channel Mapping
+    - [ ] Make sure that ESCs spin in the correct directions. You can change this in the ESC software or flight controller software.
+    - [ ] Pair RC Transceiver with your RC Controller.
+    - [ ] PID and Rates Tuning
+    - [ ] Keep a configuration backup along with the exact firmware number so you don't forget.
+
+__Experienced racing pilots recommend that you stard by flying 'acro'/'freestyle' mode straight from the start. Do not do that with real drone hardware, the probability of crashing within 2 seconds is almost 100%. Take your time on a simulator first. There are many ones that you can find on the most popular gaming platforms like Steam. For example: Liftoff, DRL Sim, etc...__
+
+__Flying 'angle'/'aided' mode is much easier and the same to flying your typical DJI/Parrot/etc drone around. You can fly this 'line of sight' even if you dont have goggles too.__
 
 </details>
 
