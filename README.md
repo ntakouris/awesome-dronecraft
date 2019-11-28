@@ -344,6 +344,7 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
     - [ ] ESCs. You can go with a 4 x 1 ESC or All in one board combo. Each has got advantages and disadvantages, search about it. But first, check your battery. It should be able to handle the burst current.
     - [ ] PDB. You need a power distribution board. These are relatively small and uncomplicated. You can find __PDB+ESC+FC__ all in one combos that include battery step down and all that. But first, check your battery.
     - [ ] Battery. LiPo. At the time of this writing you can go from 4s to 6s. Price depends on capacity, discharge rating and cell count.
+    - [ ] Brushless Motors. You know, to make the thing move.
     - [ ] RC Transceiver. Should be compatible with your RC Controller and it's protocol should be compatible with your FC board. Typically 2.4GHz.
     - [ ] RC Controller. Flysky, Taranis, there are too many to list.
     - After configuring frameware you should be able to fly this, but there are several stuff missing.
@@ -377,7 +378,42 @@ __Flying 'angle'/'aided' mode is much easier and the same to flying your typical
 
 - Building Fully Autonomous Rotorcraft is much harder and more resource intensive than building a computer-aided one. You need to do better calibration because there is no pilot directly flying it-only supervising it.
 
-- [ ] [WIP]()
+- **Basic Hardware**. Basic in the sense that you need at least those for this to fly autonomously. You could maybe leave the GPS out of that, but you need at least optical flow for exact stabilization.
+    - [ ] Flight Controller. Prefer a pre-tuned pre-built one that's resilient and robust enough. The [Pixhawk 4](https://docs.px4.io/master/en/flight_controller/pixhawk4.html) is a very good option, with dual IMUs, a ton of sensors, standarized connectors and a ton of connectivity options.
+    - [ ] GPS
+    - [ ] and/or Bottom Mounted Camera(s). Example of a drone that has got cameras on the bottom but no GPS, is the one from the matlab tech talks.
+    - [ ] Frame
+    - [ ] Propellers
+    - [ ] Brushless Motors
+    - [ ] Power Distribution Board
+    - [ ] LiPo Battery
+    - [ ] Connectivity
+        - [ ] Some way to send mission control data and receive information
+        - [ ] RC Controller to pilot-override the trajectory
+
+- [ ] **Optional Hardware**
+    - **Basic Obstacle Avoidance**
+        - [ ] Front Mounted Camera (or RGB-D or long range ultrasonic for slow moving drones)
+        - [ ] Basic Co-Processor if the flight controller firmware can't handle obstacle avoidance on it's own
+    - **Auto Land and Hand Land**
+        - [ ] Bottom mounted ultrasonic sensor
+        - [ ] and/or bottom mounted camera(s) -- two cameras needed for depth in order to be more reliable than optical flow
+    - **Payload Carry**
+        - [ ] Some kind of [magnet](https://kb.zubax.com/display/MAINKB/OpenGrab+EPM+v3) or servo to drop payloads
+    - **Advanced Camera Ops**
+        - [ ] Rotating Gimbal. In order not to couple the field of view along with the movement of the drone.
+        - [ ] RGB-D Camera (for better SLAM)
+        - [ ] LiDAR (SLAM too)
+
+- **Useful Co-Proccessor Compute Boards**
+    - [Raspberry Pi](https://www.raspberrypi.org/)
+    - [ODroid](https://www.hardkernel.com/)
+
+    - [nVidia Jetson](https://www.nvidia.com/en-us/autonomous-machines/jetson-store/)
+    - [Coral USB ML Accelerator](https://coral.withgoogle.com/products/accelerator/)
+    - [Intel Neural Compute USB Stick](https://software.intel.com/en-us/neural-compute-stick)
+
+Usually, you start of from the 'job' requirements ex. Mapping, Crop Spraying, Inspection and then decide what hardware is capable of doing this job on a cost-benefit scenario. Configure everything and you should be ready to go.
 
 ## Once You've Finished
 
