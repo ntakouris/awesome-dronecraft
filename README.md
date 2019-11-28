@@ -35,8 +35,7 @@ Disclaimer: I am not employed nor have I got any work experience on commerial or
 - [Before you Get Started](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
-
-
+- [Optional Courses](#courses)
 - [Simulation and Control](#simulation-and-control)
 - [Control Theory](#control-theory)
 - [Sensors and State Estimation](#sensors-and-state-estimation)
@@ -50,6 +49,11 @@ Disclaimer: I am not employed nor have I got any work experience on commerial or
 - [Building Fully Autonomous Rotorcraft](#building-fully-autonomous-rotorcraft)
 
 - [Once You've Finished](#once-youve-finished)
+
+- [Other Resources](#other-resources)
+- [Drone Usage in Industry](#drone-usage-in-industry)
+- [Other Kinds of Vehicles](#other-kinds-of-vehicles)
+- [More Advanced Topics](#more-advanced-topics)
 
 ## Why use it?
 
@@ -161,6 +165,25 @@ The next part is needed to be able to understand the math behind the stuff we ar
 
 </details>
 
+## Courses
+
+__Optional__
+
+- These can get expensive, but here is a list of the popular ones. Most are cheap or free.
+
+- [Flying Cars Nanodegree](https://www.udacity.com/course/flying-car-nanodegree--nd787)
+- [Aerial Robotics](https://www.coursera.org/learn/robotics-flight)
+
+- [Make an Open Source Drone](https://www.udemy.com/course/make_a_drone/)
+- [Drone Programming Primer](https://www.udemy.com/course/drone-programming-primer-for-software-development/)
+
+- [AI For Robotics](https://www.udacity.com/course/artificial-intelligence-for-robotics--cs373)
+- [Computer Vision](https://www.udacity.com/course/computer-vision-nanodegree--nd891)
+
+- [Land Surveying with Drones](https://www.udemy.com/course/land-surveying-with-drones-fly-process-analyze-1/)
+- [2D & 3D Drone Modeling and Mapping With Agisoft Metashape](https://www.udemy.com/course/2d-3d-drone-modeling-and-mapping-with-agisoft-metashape/)
+- [EDX Drone Courses: Applications and Agriculture](https://www.edx.org/learn/drones)
+
 ## Simulation and Control
 
 <details>
@@ -241,7 +264,6 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
     - [ ] [Analog to Digital Converters](https://www.youtube.com/watch?v=EnfjYwe2A0w)
     - [ ] [SBUS and IBUS](https://www.youtube.com/watch?v=N2nnI72bmj4)
     - [ ] [Understanding Pulse Width Modulation](https://www.youtube.com/watch?v=YfV-vYT3yfQ)
-    - [ ] [BLHeli](https://github.com/bitdump/BLHeli)
     - [ ] [MAVLink](https://mavlink.io/)
 
 </details>
@@ -317,6 +339,9 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 - Protocols:
 - [ ] [UAVCAN](https://uavcan.org/)
 - [ ] [MAVLink](https://mavlink.io/)
+- [ ] [Betaflight:Open ESC Firmware](https://github.com/betaflight/betaflight-esc)
+- [ ] [BLHeli](https://github.com/bitdump/BLHeli)
+
 
 </details>
 
@@ -393,7 +418,7 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 
 __Experienced racing pilots recommend that you stard by flying 'acro'/'freestyle' mode straight from the start. Do not do that with real drone hardware, the probability of crashing within 2 seconds is almost 100%. Take your time on a simulator first. There are many ones that you can find on the most popular gaming platforms like Steam. For example: Liftoff, DRL Sim, etc...__
 
-__Flying 'angle'/'aided' mode is much easier and the same to flying your typical DJI/Parrot/etc drone around. You can fly this 'line of sight' even if you dont have goggles too.__
+__Flying 'angle'/'aided' mode is much easier and the same to flying your typical DJI/Parrot/etc drone around. You can fly this 'line of sight' even if you dont have goggles.__
 
 </details>
 
@@ -406,7 +431,6 @@ __Flying 'angle'/'aided' mode is much easier and the same to flying your typical
 - Building Fully Autonomous Rotorcraft is much harder and more resource intensive than building a computer-aided one. You need to do better calibration because there is no pilot directly flying it-only supervising it.
 
 - [ ] [WIP]()
-
 
 </details>
 
