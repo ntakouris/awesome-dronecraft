@@ -41,7 +41,7 @@ Disclaimer: I am not employed nor have I got any work experience on commerial or
 - [Sensors and State Estimation](#sensors-and-state-estimation)
 - [Simultaneous Localization and Mapping](#slam)
 - [Path Planning](#path-planning)
-- [Mechanical Parts](#mechanical-parts)
+- [Mechatronics](#mechatronics)
 - [Existing Drone Software](#existing-drone-software)
 - [Existing Drone Hardware](#existing-drone-hardware)
 - [The Flight Controller](#the-flight-controller)
@@ -54,6 +54,8 @@ Disclaimer: I am not employed nor have I got any work experience on commerial or
 - [Drone Usage in Industry](#drone-usage-in-industry)
 - [Other Kinds of Vehicles](#other-kinds-of-vehicles)
 - [More Advanced Topics](#more-advanced-topics)
+
+- [Other Interesting](#other-interesting)
 
 ## Why use it?
 
@@ -250,8 +252,7 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
     - [ ] [SBUS and IBUS](https://www.youtube.com/watch?v=N2nnI72bmj4)
     - [ ] [Understanding Pulse Width Modulation](https://www.youtube.com/watch?v=YfV-vYT3yfQ)
     - [ ] [MAVLink](https://mavlink.io/)
-
-
+    - [ ] [XBee full walkthrough](https://www.youtube.com/watch?v=odekkumB3WQ)
 
 ## SLAM
 
@@ -263,8 +264,6 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 - [ ] [LiDAR Data Visualisation](https://www.youtube.com/watch?v=nXlqv_k4P8Q)
 - [ ] [Autonomous Driving: Localization and Deep Learning Powered Mapping](https://www.youtube.com/watch?v=xgI3vgnHQ9U)
 
-
-
 ## Path Planning
 
 - After proper localization, we are ready to path or mission plan, to make the UAV complete a predefined course of trajectory along with actions
@@ -275,7 +274,13 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 - [ ] [ArduPilot: ZigZag Mode (site)](http://ardupilot.org/copter/docs/zigzag-mode.html)
 - [ ] [ArduPilot: Automatic Launch (site)](http://ardupilot.org/plane/docs/automatic-takeoff.html)
 
-## Mechanical Parts
+## Mechatronics
+
+- [ ] [How brushless motors work and how to control them](https://www.youtube.com/watch?v=uOQk8SJso6Q)
+- [ ] [Advantages and Disadvantages of Brushed and Brushless Motors](https://www.youtube.com/watch?v=Y7nQI2xM2as)
+- [ ] [How to choose the right brushless motor for your drone](https://www.youtube.com/watch?v=Ry6JJPgrfVA)
+- [ ] [Slow retracting landing gear for drones](https://www.youtube.com/watch?v=VWCpLyIXwz0)
+- [ ] [Drone with Dual Robot Arms](https://www.youtube.com/watch?v=T6kaU2sgPqo)
 
 ## Existing Drone Software
 
@@ -404,6 +409,12 @@ __Flying 'angle'/'aided' mode is much easier and the same to flying your typical
         - [ ] Rotating Gimbal. In order not to couple the field of view along with the movement of the drone.
         - [ ] RGB-D Camera (for better SLAM)
         - [ ] LiDAR (SLAM too)
+    - [ ] Retracting Landing Gear
+    - **Extra Connectivity**
+        - [ ] WiFi
+        - [ ] LoRa
+        - [ ] E-3G-4G-5G
+        - [ ] Bluetooth
 
 - **Useful Co-Proccessor Compute Boards**
     - [Raspberry Pi](https://www.raspberrypi.org/)
@@ -425,8 +436,36 @@ You're never really done. But still, good job :).
 
 ## Other Resources
 
+- [ ] [Digital Night Vision Insights](https://www.youtube.com/watch?v=CFDNEjJ0cME)
+- [ ] [How to Make an Infared Night Vision Camera From a Regular Digital Camera](https://www.youtube.com/watch?v=qRCz6n_cqHM)
+
+- [ ] [The Reconfigurable Aerial Robotic Chain: Modeling and Control](https://www.youtube.com/watch?v=yarPEP8Kcwk)
+- [ ] [Skydio: Adam Bry Guest Lecture CS287](https://www.youtube.com/watch?v=ZI66eq7Nn1E)
+
+- [ ] [Autonomous Exploration inside Building Corridors](https://www.youtube.com/watch?v=H7WpBhPbvSI)
+- [ ] [Autonomous Self-deployment of Communication Breadcrumbs](https://www.youtube.com/watch?v=-bDDzUFlJGE)
+
+- [ ] [Army's Next Generation Silent Nano Drone](https://www.youtube.com/watch?v=d5TdbMu8xc4)
+
 ## Drone Usage in Industry
 
 ## Other Kinds of Vehicles
 
+- **Wings**
+- **VTOL**
+- **Underwater**
+
 ## More Advanced Topics
+
+- [ ] UAV Swarms
+
+- [ ] Automatic Resupply and Mission Resum
+
+- [ ] Deep Learning
+    - [ ] [Andrew Ng: Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
+    - [ ] [Fast AI Courses](https://www.fast.ai/)
+
+## Other Interesting
+
+- [Lex Fridman AI Podcasts](https://lexfridman.com/ai/)
+- [2 Minute Papers](https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg)
