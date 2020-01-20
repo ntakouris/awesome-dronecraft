@@ -316,6 +316,9 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 - [ ] [Betaflight:Open ESC Firmware](https://github.com/betaflight/betaflight-esc)
 - [ ] [BLHeli](https://github.com/bitdump/BLHeli)
 
+- Design Tools:
+- [ ] [Flight Evaluation](https://www.flyeval.com/) - Rule and Constraint based airframe design and evaluation
+
 ## Existing Drone Hardware
 
 - For your own interest as well.
