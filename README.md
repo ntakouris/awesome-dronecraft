@@ -117,8 +117,8 @@ You may also need to learn a bit of other tools in the proccess. This is NOT som
 
 ## Book List
 
-- This is meant to be a table of contents for the internet 'book'.
-- WIP
+- [Quan, Quan - Introduction to Multicopter Design and Control](https://www.springer.com/gp/book/9789811033810)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A very good all-around book. It provides a more than quick-overview on all the different topics regarding quadcopters, from frame design, to electronics and control, diving deep enough on technical and practical design practises and considerations. It provides intuition behind every subject matter and does not containt ambiguities. The mathematics may seem too hard to deal with for some people, but that's not a thing to worry about. A person without mechanical or electrical engineering background can easily tackle this with some calculus and basic geometry knowledge.
 
 ## Before you Get Started
 
@@ -183,7 +183,7 @@ __Optional__
 ## Simulation and Control
 
 - This is the basis of rotorcraft that is going to get covered first. These few resources will make you understand what a drone needs to fly bad, good, with the help of extra autonomy engines or with the help of a pilot.
-- After this part, the corks and screws of each subsystem is going to be investigated thouroughly.
+- After this part, the corks and screws of each subsystem is going to be investigated thoroughly.
 
 - [ ] [Matlab Tech Talks - Understanding Control Systems](https://www.mathworks.com/videos/series/understanding-control-systems-123420.html)
 - [ ] [Matlab Tech Talks - Drone Simulation and Control](https://www.mathworks.com/videos/drone-simulation-and-control-part-1-setting-up-the-control-problem-1539323440930.html)
