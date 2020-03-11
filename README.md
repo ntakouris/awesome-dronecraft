@@ -468,7 +468,20 @@ You're never really done. But still, good job :).
     - [ ] [Andrew Ng: Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
     - [ ] [Fast AI Courses](https://www.fast.ai/)
 
+Now that you have made it so far, here are the last resources I am able to point you to. From this point on you should have a good understanding of how drones work and how to have a digital perception of the environment. The last parts are exactly a few missing pieces and how to pull everything together:
+
+
+- [ ] Efficient and Accurate Tracking Objects Through Video
+    - [ ] [Kernelized Correlation Filters](http://www.robots.ox.ac.uk/~joao/circulant/). This is the efficient approach #1. A very simple training step with a very simple detection and on-line update step.
+    - [ ] [End-to-end representation learning for Correlation Filter based tracking](http://www.robots.ox.ac.uk/~vedaldi//assets/pubs/bertinetto17end-to-end.pdf). This is the step #2, sacrificing some computational power and complexity in order to get a more robust and transformation-occlusion invariant tracking
+- [ ] Lightweight Deep Neural Network Computations for Mobile and Embedded Platforms
+    - [ ] [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/pdf/1704.04861.pdf). There is also a V2 version of MobileNets.
+    - [ ] [Intel OpenVINO](https://medium.com/@zarkopafilis/introduction-to-intel-openvino-in-5-minutes-b21f59e5fd4?source=friends_link&sk=2112ee80b16fa7da480d55ed1ed7602e). Optimizing deep learning models for the edge. nVidia and other companies provide their own toolkits as well, but they all work on a similar pruning-and-reducing neurons while maintaining a high enough performance metrics.
+- [ ] [Towards a Robust Aerial Cinematography Platform: Localizing and Tracking Moving Targets in Unstructured Environments](https://arxiv.org/pdf/1904.02319.pdf). AKA the Skydio paper. The authors of this paper have published a lot of work on the subject and will probably keep doing them. I suggest that you look the up on google scholar.
+
 ## Other Interesting
 
 - [Lex Fridman AI Podcasts](https://lexfridman.com/ai/)
 - [2 Minute Papers](https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg)
+
+Lastly, I hope that enjoyed reading and learning from this simple text file as much as I enjoyed researching and writing about it.
