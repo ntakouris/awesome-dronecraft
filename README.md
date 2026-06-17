@@ -372,6 +372,7 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 
 - [ ] **Software and Further Configuration**
     - [ ] Blackbox Logging. Important information regarding your flight. Can help you out for post-flight analysis.
+    - [ ] [FPVTune](https://fpvtune.com/) - Analyze Betaflight blackbox logs and get PID/filter tuning suggestions.
     - [ ] RC Channel Mapping
     - [ ] Make sure that ESCs spin in the correct directions. You can change this in the ESC software or flight controller software.
     - [ ] Pair RC Transceiver with your RC Controller.
