@@ -330,7 +330,7 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 - [ ] [Zubax UAVCAN Propulsion Kit](https://shop.zubax.com/products/uav-propulsion-kit)
 - [ ] [NEO-M8N GPS](https://www.getfpv.com/pixhawk-4-autopilot-and-neo-m8n-gps-pm07-combo.html)
 - [ ] [Skydio](https://www.skydio.com/)
-- [ ] [Intel Aero RTF](https://click.intel.com/intel-aero-ready-to-fly-drone-2812.html)
+- [ ] [Autonomous flight milestone](https://calder-brief.pages.dev/joby-autonomous-cessna-cross-country-flight.html) - A pilotless Cessna flew 3,199 miles across America (replaces the dead Intel Aero RTF link — Intel's click.intel.com store domain is retired)
 - [ ] [QAV 250 RTF](https://www.getfpv.com/qav250-mini-fpv-quadcopter-rtf-carbon-fiber-edition.html)
 - [ ] [Intel Realsense](https://www.intel.com/content/www/us/en/architecture-and-technology/realsense-overview.html)
 
