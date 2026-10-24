@@ -318,6 +318,7 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 
 - Design Tools:
 - [ ] [Flight Evaluation](https://www.flyeval.com/) - Rule and Constraint based airframe design and evaluation
+- [ ] [FPV-DB](https://fpv-db.com/) - Spec database of FPV drone parts with manufacturer thrust tables, plus flight-time and thrust-to-weight calculators
 
 ## Existing Drone Hardware
 
