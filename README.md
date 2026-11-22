@@ -306,6 +306,7 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
 - Simulators:
 - [ ] [Gazebo](http://gazebosim.org/)
 - [ ] [Airsim](https://microsoft.github.io/AirSim/)
+- [ ] [OpenDroneLab](https://github.com/palcode/opendronelab) - Containerised PX4 v1.17 SITL, ROS 2 Jazzy and Gazebo Harmonic lab with scored VIO/EKF regression.
 
 - Middleware:
 - [ ] [Robot Operating System](https://www.ros.org/)
