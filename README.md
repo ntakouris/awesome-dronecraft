@@ -237,6 +237,7 @@ __At this point, you might wonder: This is only for four rotors. Don't worry, th
     - [ ] [PX4: Gimbal Control (site)](https://dev.px4.io/v1.9.0/en/advanced/gimbal_control.html)
     - [ ] [MAVLink: Gimbal Protocol (site)](https://mavlink.io/en/services/gimbal.html)
 - [ ] [Ultrasonic Distance Sensor](https://www.youtube.com/watch?v=6F1B_N6LuKw)
+- [ ] [Single-point laser rangefinder as an altimeter: ArduPilot/PX4 guide (site)](https://github.com/ErdiTech/drone-altimeter-laser-rangefinder-guide)
 - [ ] Corrections and Calibration
     - [ ] [What is Sensor Calibration and Why is it Important?](https://www.youtube.com/watch?v=n_lZCIA25aI)
     - [ ] [Low Pass Filter (site)](https://www.dsprelated.com/freebooks/filters/Simplest_Lowpass_Filter_I.html)
